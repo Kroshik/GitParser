@@ -22,6 +22,7 @@ def show_func_defs(filename):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         filename  = sys.argv[1]
+        print("\n",filename)
     else:
         filename = 'a.c'
     show_func_defs(filename)
